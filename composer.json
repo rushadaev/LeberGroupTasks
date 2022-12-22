@@ -1,0 +1,17 @@
+{
+    "name": "root/testtask",
+    "description": "Test task for Leber Group",
+    "autoload": {
+        "psr-4": {
+            "Root\\Testtask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan Shadaev"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.26"
+    }
+}
